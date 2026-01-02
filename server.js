@@ -10,7 +10,8 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  "mongodb+srv://ashritagogula12_db_user:Ashrita2006@cluster0.zhdvkwk.mongodb.net/"
+  "MONGO_URI=mongodb+srv://NEW_USERNAME:NEW_PASSWORD@cluster.mongodb.net/dbname
+"
 )
 .then(() => console.log("db connected"))
 .catch((error) => console.log("db error:", error.message));
