@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "asyncandawait.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashritagogula/callbacks-promises-async-await.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashritagogula/callbacks-promises-async-await/issues"
+  },
+  "homepage": "https://github.com/Ashritagogula/callbacks-promises-async-await#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
