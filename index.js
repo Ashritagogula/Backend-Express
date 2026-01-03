@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-// 1️⃣ Connect to MongoDB
+// 1️ Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/studentDB')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
