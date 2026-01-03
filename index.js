@@ -21,7 +21,7 @@ app.get("/add", (req, res) => {
 });
 
 
-// 3️⃣ Create Model
+// 3️ Create Model
 const Student = mongoose.model('Student', studentSchema);
 
 // 4️ CREATE ➤ Add new student
