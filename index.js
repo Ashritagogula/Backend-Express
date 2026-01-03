@@ -9,7 +9,7 @@ mongoose.connect('mongodb://localhost:27017/studentDB')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
 
-// 2️⃣ Create Schema
+// 2️ Create Schema
 const studentSchema = new mongoose.Schema({
   name: String,
   age: Number,
